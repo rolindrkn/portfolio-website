@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* Template CSS styling for all pages */
+
+body{
+	background-color: #F5F5F5;
+}
+
+Header {
+	height: 100px;
+	position: relative;
+}
+Header > a > img {
+	position: absolute;
+	width: 70px;
+	top: 20px;
+	left: 50px;
+	opacity: 0.5;
+	content: url("images/logo.png");
+}
+
+Header > a:hover > img{
+	content: url("images/logo_hover.png");
+	top:-15px;
+	left:-10px;
+	width: 200px;
+}
+
+nav {
+	position: absolute;
+	width: fit-conent;
+	top:10px;
+	right: 40px;
+	text-align: right;
+}
+
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a{
+	color: 	#A9A9A9;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	font-weight: 700;
+}
+
+a:hover{
+	color: black;
+	font-size: 25px;
+}
+
+footer {
+	margin: auto;
+	width: fit-content;
+}
+
+footer > ul{
+	display: flex;
+	align-items: stretch;
+}
+
+footer > ul > li {
+	list-style-type: none;
+	margin: 5px;
+}
+
+.code {
+	text-decoration: none;
+	color: grey;
+}
+
