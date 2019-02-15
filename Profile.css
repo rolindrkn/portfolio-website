@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+main > div{
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+main > div >p {
+    margin: 5px;
+    width: 80%;
+}
