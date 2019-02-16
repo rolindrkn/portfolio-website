@@ -9,7 +9,7 @@ body {
     margin: 0px;
     min-height: 100%;
     width: 100%;
-    background-color: rgb(243, 239, 239);
+    background-color: rgb(170, 172, 253);
     display: grid;
     justify-items: stretch;
 }
@@ -38,7 +38,7 @@ body {
 
 nav {
     z-index: 1;
-    background-image: linear-gradient(rgb(0, 0, 71), rgb(250,128,114),rgb(225, 243, 255),rgb(225, 243, 255),rgb(250,128,114),rgb(0, 0, 71));
+    background-image: linear-gradient(rgb(0, 0, 71), rgb(250,128,114),rgb(225, 243, 255),rgb(250,128,114),rgb(0, 0, 71));
     text-align: center;
     padding: 3%;
     display: flex;
@@ -51,12 +51,6 @@ nav a {
     text-decoration: none;
     margin:0% 5%;
     font-size: 2em;
-}
-
-#underline{
-    height: 1%;
-    width: 50px;
-    background-color:rgb(100,100,100);
 }
 
 #techsk {
