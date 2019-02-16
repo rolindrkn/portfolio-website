@@ -1,42 +1,117 @@
 <!doctype html>
 <html>
-<head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="portfolioStylesheet.css">
-<link rel="stylesheet" href="index.css">
-<title>Journey in a Tech World</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Rosalind Ng - portfolio </title>
+    <script src="website.js" defer></script>
 </head>
 
 <body>
-	<header>
-		<a href="index.html"><img></a>
-		
-		<nav>
-			<ul>
-				<li><a href="profile.html"> Profile </a></li>
-				<li><a href="index.html"> All Work </a></li>
-			</ul>
-		</nav>
-	</header>
+    <div class="mainWrapper">
+        <div class = "main">
+            <img id="profile">
+            <h1>Rosalind Ng</h1>
+            <h1>Jr Software Developer</h1>
+        </div>
+    </div>
 
-	<main>
-		<h1>List of work</h1>
-		<ul>
-			<li><a href="Gradius.html" class="projectText">Shooter game<br><img src="images/Gradius.JPG" class="project" alt="Gradius"></a></li>
-			<li><a href="Battleship.html" class="projectText">Board game<br><img src="images/Battleship_logo.JPG" class="project" alt="Battleship"></a></li>
-			<li><a href="clock.html" class="projectText">Clock<br><img src="images/clock_logo.PNG" class="project" alt="Clock"></a></li>
-			<li><a href="7-Segment.html" class="projectText">7 Segment<br><img src="images/Board.PNG" class="project" alt="7 Segment"></a></li>
-			<li><a href="FrequentLed.html" class="projectText">Frequent Led<br><img src="images/Board.PNG" class="project" alt="Frequent Led"></a></li>
-			<li><a href="FiveStone.html" class="projectText">Five Stone<br><img src="images/FiveStone.PNG" class="project" alt="Frequent Led"></a></li>
-			<li><a href="Nulla.html" class="projectText">NullaShooter<br><img src="images/Nulla.PNG" class="project" alt="Frequent Led"></a></li>
-		</ul>
-	</main>
-	<footer>
-		<ul>
-			<li>Rosalindkng@gmail.com</li>
-			<li><a href="https://www.linkedin.com/in/rosalindkng/">linkedIn logo here</a></li>
-			<li><a href="https://www.linkedin.com/in/rosalindkng/">github logo here</a></li>
-		</ul>
-	</footer>
+    <nav id="navbar">
+        <a href="#techsk"> Skills </a>
+        <a href="#edu"> Edu </a>
+        <a href="#projects"> Projects </a>
+    </nav>
+    
+    <div id="techsk"> 
+        <h1><u>Technical Skills</u></h1>
+        <ul>
+            <li>Javascript</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>VHDL</li>
+        </ul>
+    </div>
+
+    <div id="edu">
+        <h1><u>Education</u></h1>
+        <h2><b>Langara College</b></h2>
+        <h3>Associate Science in Computer Science</h3>
+        <p>Graduating: April 2019</p>
+
+        <h2><b>University of Saskatchewan</b></h2>
+        <h3>Bachelor of Agriculture in Animal Science</h3>
+        <p>Graduated: 2015</p>
+    </div>
+        
+    <div id="projects"> 
+        <div class="projects">
+            <img src="images/Gradius.JPG">
+            <div id="text">
+                <h3>Gradius</h3>
+                <p>Java</p>
+                <a href="https://github.com/rolindrkn/Gradius">Code here</a>
+            </div>
+        </div>
+
+        <div class="projects">
+            <img src="images/Battleship_logo.JPG">
+            <div id="text">
+                <h3>Battleship</h3>
+                <p>JavaScript, HTML, CSS</p>
+                <a href="https://github.com/rolindrkn/battleship">Code here</a>
+            </div>
+        </div>
+		
+        
+        <div class="projects">
+            <img src="images/clock_logo.PNG">
+            <div id="text">
+                <h3>Clock</h3>
+                <p>Java</p>
+                <a href="https://github.com/rolindrkn/Clock">Code here</a>
+            </div>
+        </div>
+     
+        <div class="projects">
+            <img src="images/FiveStone.PNG">
+            <div id="text">
+                <h3>Five Stones</h3>
+                <p>C++</p>
+                <a href="https://github.com/rolindrkn/FiveStone">Code here</a>
+            </div>
+        </div>
+        
+        <div class="projects">
+            <img src="images/Nulla.PNG">
+            <div id="text">
+                <h3>Nulla Shooter</h3>
+                <p>Java, Android Studio, LibGDX</p>
+                <a href="https://github.com/rolindrkn/NullaShooter">Code here</a>
+            </div>
+        </div>
+
+        <div class="projects">
+            <img src="images/Board.PNG">
+            <div id="text">
+                <h3>Seven Segment</h3>
+                <p>VHDL</p>
+                <a href="">Code here</a>
+            </div>
+        </div>
+
+        <div class="projects">
+            <img src="images/Board.PNG">
+            <div id="text">
+                <h3>Led Frequency</h3>
+                <p>VHDL</p>
+                <a href="">Code here</a>
+            </div>
+        </div>
+    </div>
+ 
 </body>
 </html>
