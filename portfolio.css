@@ -1,10 +1,11 @@
 @charset "utf-8";
 /**Styling for page**/
-
+html,body {
+    margin:0;
+    min-height:100%;
+}
 body {
-    margin: 0px;
-    background-image: linear-gradient(to right,rgb(207, 205, 205),rgb(243, 239, 239));
-    width: 100%;
+    background-color: rgb(243, 239, 239);
     display: grid;
     justify-items: stretch;
 }
@@ -57,7 +58,7 @@ nav a {
 #techsk {
     padding: 12%;
     text-align: center;
-    
+    background-image:linear-gradient(rgb(243, 239, 239), rgb(185,184,184));
 }
 
 #techsk ul{
@@ -73,7 +74,7 @@ nav a {
 
 #edu {
     padding: 12%;    
-    background-image: linear-gradient(rgb(185, 184, 184), rgb(207, 205, 205));
+    background-image: linear-gradient(rgb(185, 184, 184), rgb(207, 205, 205), rgb(243, 239, 239));
     text-align: center;
 }
 
@@ -87,6 +88,8 @@ h1{
 }
 
 #Works{
+    overflow:auto;
+    background-image:linear-gradient(rgb(243, 239, 239), rgb(185,184,184));
     height: 100%;
     text-align: center;
     padding-top: 10%;
@@ -107,7 +110,7 @@ h1{
     position: relative;
     justify-self: center;
     width: 60%;
-    height: 180px;
+    height: 60%;
     background-size: 170px;
     text-align: center;
     opacity: 1;
@@ -178,12 +181,12 @@ hr{
 }
 
 #lineProj{
-    width: 15%;
+    width: 20%;
     background-color: rgb(59, 57, 207);
 }
 
 #lineEdu{
-    width: 24%;
+    width: 25%;
     background-color: rgb(250,128,114);
 }
 
@@ -197,6 +200,11 @@ hr{
     background-color: rgb(250,128,114);
 }
 
+#lineEduBreak{
+    width: 20px;
+    background-color: darkgrey;
+}
+
 @media only screen and (max-width:800px) {
     #projects {
         grid-template-columns: auto auto;
@@ -205,7 +213,7 @@ hr{
     #techsk ul{
         list-style-type: none;
         display:grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
 }
 
